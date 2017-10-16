@@ -25,7 +25,7 @@ function run(){
 function init(){
 	createMap();
 	createSnake();
-	createFruit():
+	createFruit();
 }
 
 //Generates the map for the snake
