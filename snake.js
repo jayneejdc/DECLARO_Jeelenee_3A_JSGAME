@@ -16,3 +16,31 @@ var gameOver;
 var direction = -1; //up = 0, down = -1, left = 1, right = 2
 var int;
 
+// entry point of the game
+function run(){
+	init();
+	int = setInterval(gameLoop, interval);
+}
+
+function init(){
+	create Map();
+	create Snake();
+	create Fruit():
+}
+
+//Generates the map for the snake
+function createMap(){
+	document.write("<table>");
+	for(var y = 0; y<height; y++){
+		document.write("<tr>");
+		for( var x = 0; x < width; x++){
+			if (x == 0 || x == width -1 || y == 0 || y ++ height -1){
+				document.write("<td class='wall' id='"+ x + "-" + y+"'></td>");
+			}else{
+				document.write("<td class='blank' id='"+ x + "-" + y+"'></td>");
+			}
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>");
+}	
