@@ -13,7 +13,7 @@ td{
 }
 
 .blank{
-	backgrounf-color:blank;
+	background-color:blank;
 }
 
 .snake{
@@ -21,7 +21,7 @@ td{
 }
 
 .wall{
-	background-color: pink;
+	background-color: green;
 }
 
 .fruit{
