@@ -45,4 +45,16 @@ function createMap(){
 	document.write("</table>");
 }	
 
+function createSnake(){
+	set(snakeX, snakeY, "snake");
+}
+
+function get(x,y){
+	return document.getElementById(x+"-"+y);
+}
+
+function set(x,y,value){
+	get(x,y).setAttribute("class", value);
+}
+
 run();
