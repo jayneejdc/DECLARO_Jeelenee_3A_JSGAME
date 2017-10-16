@@ -15,3 +15,15 @@ td{
 .blank{
 	backgrounf-color:blank;
 }
+
+.snake{
+	background-color: white;
+}
+
+.wall{
+	background-color: pink;
+}
+
+.fruit{
+	background-color: red;
+}
